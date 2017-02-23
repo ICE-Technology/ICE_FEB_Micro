@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    	"start": "node pg_notify_on_heroku_v1.js"
+    	"start": "node pg_notify_on_heroku_v2.js"
   },
   "repository": {
     "type": "git",
