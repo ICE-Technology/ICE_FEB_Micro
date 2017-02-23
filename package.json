@@ -1,15 +1,23 @@
 {
-  "name": "nodeheroku",
+  "name": "node_ice",
   "version": "1.0.0",
   "description": "",
   "main": "pg_notify_on_heroku_v1.js",
+  "dependencies": {
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node pg_notify_on_heroku_v1.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICE-Technology/ICE_FEB_Micro.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.1",
-    "pg": "^6.1.2"
-  }
+  "bugs": {
+    "url": "https://github.com/ICE-Technology/ICE_FEB_Micro/issues"
+  },
+  "homepage": "https://github.com/ICE-Technology/ICE_FEB_Micro#readme"
 }
